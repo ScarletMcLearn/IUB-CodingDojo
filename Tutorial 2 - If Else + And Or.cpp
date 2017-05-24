@@ -27,22 +27,6 @@ int main()
 
 
 
-//Phase 6:
-//    int num;
-//
-//    cout<<"Please enter a number: ";
-//
-//    cin>> num;
-//
-//    if (num = 2)
-//    {
-//        cout<<"Your number is equal to 2! ;) " <<endl;
-//    }
-//    else
-//    {
-//        cout<<"Your number is not equal to 2! ;) " <<endl;
-//    }
-
 
 
 
@@ -98,6 +82,7 @@ int main()
 
 
 
+
     //Phase 4:
 
 //    cout<<"Please enter a number: " ;
@@ -132,7 +117,58 @@ int main()
 
 
 
-    //Phase 5:
+
+
+
+
+
+
+
+
+
+//Phase 5:
+//    int num;
+//
+//    cout<<"Please enter a number: ";
+//
+//    cin>> num;
+//
+//    if (num = 2)
+//    {
+//        cout<<"Your number is equal to 2! ;) " <<endl;
+//    }
+//    else
+//    {
+//        cout<<"Your number is not equal to 2! ;) " <<endl;
+//    }
+
+
+
+
+
+
+//    //Phase 6
+//    cout<<"Please enter a number: ";
+//
+//    int your_number_variable;
+//
+//    cin>> your_number_variable;
+//
+//
+//    if (your_number_variable % 2 == 0 || your_number_variable % 7 == 0)
+//    {
+//        cout<<"\nYour number is divisible by either 2 or 7. " <<endl;
+//    }
+//    else
+//    {
+//        cout<<"\nYour number is not divisible by either 2 nor 7. " <<endl;
+//    }
+
+
+
+
+
+//Phase 7:
 //    cout<<"Please enter a number: " ;
 //
 //    int no;
@@ -156,29 +192,6 @@ int main()
 //    {
 //        cout<<endl << no <<" is not divisible by either 2 nor 5. \nFTP!" <<endl;
 //    }
-
-
-
-
-
-
-//    //Phase 7
-//    cout<<"Please enter a number: ";
-//
-//    int your_number_variable;
-//
-//    cin>> your_number_variable;
-//
-//
-//    if (your_number_variable % 2 == 0 || your_number_variable % 7 == 0)
-//    {
-//        cout<<"\nYour number is divisible by either 2 or 7. " <<endl;
-//    }
-//    else
-//    {
-//        cout<<"\nYour number is not divisible by either 2 nor 7. " <<endl;
-//    }
-
 
 
 
