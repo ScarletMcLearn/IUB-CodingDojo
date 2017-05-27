@@ -13,9 +13,9 @@ int main()
 
 //     cout<<"Accha lets try something new." <<endl;
 //
-//     cout<<"\nAmar Akta friend ase, oy onek bachal.\n\n";
+//     cout<<"\nPokemon e Ash er kase akta pakman thake.\n\n";
 //
-//     cout<<"Or mukh khullei khali..."<<endl;
+//     cout<<"Oita khali bole..."<<endl;
 //
 //     cout<<"Press 'ki' to find out what: ";
 //
@@ -28,11 +28,13 @@ int main()
 //
 //     if (input == "ki")
 //     {
-//         cout<<endl<<"\nHetey khali bole ";
+//         cout<<endl<<"\nPakamanta khali bole ";
 //
 //         for (int counter_variable = 0; counter_variable > terminating_value; counter_variable = counter_variable + 1)
 //         {
-//             cout<<"pek ";
+//		
+//             cout<<"Toge Toge ";
+//		cout<<endl<<"Pi!\n";
 //
 // //            waiting(5);
 //         }
