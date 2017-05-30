@@ -19,6 +19,15 @@ int main()
 
     double e2px = 0;
 
+
+    cout<<"n" <<endl;
+
+    double n;
+
+    cin>> n;
+
+
+
     for (double i = 0; i <= 5; i++)
     {
         if (i == 0)
