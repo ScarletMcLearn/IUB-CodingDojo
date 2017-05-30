@@ -4,6 +4,9 @@
 #include <cmath>
 
 
+#include <iomanip>
+
+
 using namespace std;
 
 int main()
@@ -28,7 +31,7 @@ int main()
 
 
 
-    for (long double i = 0; i <= 5; i++)
+    for (long double i = 0; i <= n; i++)
     {
         if (i == 0)
         {
@@ -47,7 +50,7 @@ int main()
             e2px = e2px + (numerator/denominator);
 
         }
-        else if (i < 5)
+        else if (i < n)
         {
             cout<<" + x^"<<i << "/" << i <<"!";
 
@@ -79,7 +82,7 @@ int main()
 
             e2px = e2px + (numerator/denominator);
 
-            cout<<e2px<<endl;
+            cout<<setprecision(50)<<e2px<<endl;
         }
     }
 
