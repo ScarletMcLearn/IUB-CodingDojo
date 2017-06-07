@@ -1,4 +1,7 @@
 #include <iostream>
+
+#include <cmath>
+
 using namespace std;
 
 
@@ -205,12 +208,41 @@ int main()
 //}
 
 
+    int n;
+    cin>>n;
+    cout<<"\n";
 
 
 
+    for (int i = 1; i <=n; i++)
+    {
+        for (int j = 1; j <= n; j++)
+        {
+//            cout<<"("<<i<<","<<j<<")";
+             if (i == 1 || i == n || j == 1 || j == n)
+                cout<<j<<"\t";
+             else if (i == (n/2)+1 && j == (n/2)+1)
+                cout<<j<<"\t";
+//            else if (i == j)      //works
+//                cout<<j<<"\t";
+//            else if ((i-j) == 1)
+//                cout<<j<<"\t";
+             else
+                cout<<"\t";
+
+            if (j == n)
+                cout<<"\v";
+        }
+        cout<<endl;
+    }
 
 
 
+//    for (int i = 0; i < 10; i++)
+//        cout<<i <<"\v\a";
+//
+//    for (int i = 0; i < 10; i++)
+//        cout<<i <<"\f";
 
 
 
